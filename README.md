@@ -29,23 +29,24 @@ Este projeto inclui **CRUD de livros**, **autenticação JWT**, **controle de pe
 
 ## Estrutura de Pastas
 
+```bash
 fastapi-book-manager/
-│── app/
-│   ├── main.py           # Ponto de entrada da aplicação
-│   ├── database.py       # Conexão com o banco
-│   ├── models.py         # Modelos SQLAlchemy
-│   ├── schemas.py        # Schemas Pydantic
-│   ├── crud.py           # Funções CRUD
+├── app/
+│   ├── main.py           
+│   ├── database.py       
+│   ├── models.py        
+│   ├── schemas.py  
+│   ├── crud.py    
 │   ├── routers/
-│   │   ├── auth.py       # Rotas de autenticação
-│   │   ├── users.py      # Rotas de usuários
-│   │   └── books.py      # Rotas de livros
+│   │   ├── auth.py 
+│   │   ├── users.py 
+│   │   └── books.py 
 │   ├── utils/
-│   │   └── security.py   # Funções de segurança (hash, JWT)
-│── tests/
+│   │   └── security.py 
+├── tests/
 │   ├── test_auth.py
 │   ├── test_books.py
 │   └── test_users.py
-│── alembic/              
-│── requirements.txt
-│── README.md
+├── alembic/  
+├── requirements.txt
+└── README.md
